@@ -12,7 +12,7 @@ export default function WelcomeScreen(){
                     </View>
 
                     <View style={styles.buttonsContainer}>
-                        <Link href={"/(tabs)"} asChild>
+                        <Link href={"/login"} asChild>
                             <TouchableOpacity style={styles.loginButton}>
                                 <Text style={styles.loginButtonText}>Entrar</Text>
                             </TouchableOpacity>
